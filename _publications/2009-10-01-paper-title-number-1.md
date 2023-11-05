@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Go-Blend Behavior and Affect"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/Go-Blend-Behavior-and-Affect
+excerpt: ''
+date: 2021-28-09
+venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)'
+paperurl: 'http://academicpages.github.io/files/Go-Blend.pdf'
+citation: 'Barthet, M., Liapis, A., & Yannakakis, G. N. (2021, September). Go-Blend behavior and affect. In 2021 9th IEEE International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This paper proposes a paradigm shift for affective computing by viewing the affect modeling task as a reinforcement learning process. According to our proposed framework the context (environment) and the actions of an agent define the common representation that interweaves behavior and affect. To realise this framework we build on recent advances in reinforcement learning and use a modified version of the Go-Explore algorithm which has showcased supreme performance in hard exploration tasks. In this initial study, we test our framework in an arcade game by training Go-Explore agents to both play optimally and attempt to mimic human demonstrations of arousal. We vary the degree of importance between optimal play and arousal imitation and create agents that can effectively display a palette of affect and behavioral patterns. Our Go-Explore implementation not only introduces a new paradigm for affect modeling; it empowers believable AI-based game testing by providing agents that can blend and express a multitude of behavioral and affective patterns.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](http://academicpages.github.io/files/Go-Blend.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Barthet, M., Liapis, A., & Yannakakis, G. N. (2021, September). Go-Blend behavior and affect. In 2021 9th IEEE International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW).
