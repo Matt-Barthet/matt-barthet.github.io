@@ -3,7 +3,7 @@ title: "Go-Blend Behavior and Affect"
 collection: publications
 permalink: /publication/Go-Blend-Behavior-and-Affect
 excerpt: ''
-date: 2021-28-09
+date: 2021-09-28
 venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)'
 paperurl: 'http://academicpages.github.io/files/Go-Blend.pdf'
 citation: 'Barthet, M., Liapis, A., & Yannakakis, G. N. (2021, September). Go-Blend behavior and affect. In 2021 9th IEEE International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW).'
