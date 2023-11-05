@@ -1,0 +1,15 @@
+---
+title: "Play with Emotion: Affect-Driven Reinforcement Learning"
+collection: publications
+permalink: /publication/Affect-Driven-RL
+excerpt: ''
+date: 2022-10-01
+venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction'
+paperurl: ''
+citation: 'Barthet, M., Khalifa, A., Liapis, A., & Yannakakis, G. N. (2022). Play with Emotion: Affect-Driven Reinforcement Learning. In Proceedings of the 10th IEEE International Conference on Affective Computing and Intelligent Interaction.
+'
+---
+
+This paper introduces a paradigm shift by viewing the task of affect modeling as a reinforcement learning (RL) process. According to the proposed paradigm, RL agents learn a policy (i.e. affective interaction) by attempting to maximize a set of rewards (i.e. behavioral and affective patterns) via their experience with their environment (i.e. context). Our hypothesis is that RL is an effective paradigm for interweaving affect elicitation and manifestation with behavioral and affective demonstrations. Importantly, our second hypothesis-building on Damasio's so-matic marker hypothesis-is that emotion can be the facilitator of decision-making. We test our hypotheses in a racing game by training Go-Blend agents to model human demonstrations of arousal and behavior; Go-Blend is a modified version of the Go-Explore algorithm which has recently showcased supreme performance in hard exploration tasks. We first vary the arousal-based reward function and observe agents that can effectively display a palette of affect and behavioral patterns according to the specified reward. Then we use arousal-based state selection mechanisms in order to bias the strategies that Go-Blend explores. Our findings suggest that Go-Blend not only is an efficient affect modeling paradigm but, more importantly, affect-driven RL improves exploration and yields higher performing agents, validating Damasio's hypothesis in the domain of games.
+
+[Download paper here](http://matt-barthet.github.io/files/Affect-Driven-RL.pdf)
