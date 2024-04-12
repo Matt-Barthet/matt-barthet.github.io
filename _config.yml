@@ -11,8 +11,6 @@ title                    : "Matthew Barthet"
 title_separator          : "-"
 name                     : &name "Matthew Barthet"
 description              : &description "PhD student in AI and games research"
-url                      : https://matt-barthet.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "matt-barthet/matt-barthet.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
