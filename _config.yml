@@ -185,6 +185,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  tutorial:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -216,6 +219,16 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _tutorial
+  - scope:
+      path: ""
+      type: tutorial
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      date: false
   # _publications
   - scope:
       path: ""
