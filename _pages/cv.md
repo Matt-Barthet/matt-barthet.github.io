@@ -11,16 +11,20 @@ redirect_from:
 
 Education
 ======
-* B.Sc. in Computing Science, University of Malta, 2019
-* M.Sc. in Digital Games, University of Malta, 2021
+* B.Sc. in Computing Science, University of Malta, 2016-2019
+* M.Sc. in Digital Games, University of Malta, 2019-2021
+* PhD. in Games Research, University of Malta, 2022-Present
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Research Support Officer I, 2020-2022
+  * University of Malta
+  * Duties included: Research, EU project duties
+
+* Research Support Officer II, 2022-Present
+  * University of Malta
+  * Duties included: Research, EU project duties
+
 Skills
 ======
 * Skill 1
