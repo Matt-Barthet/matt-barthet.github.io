@@ -259,6 +259,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.17.2)
   github-pages
   hawkins
   jekyll (~> 3.9.5)
