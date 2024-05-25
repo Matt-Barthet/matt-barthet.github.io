@@ -261,6 +261,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.17.2)
   faraday-retry
   github-pages
   hawkins
