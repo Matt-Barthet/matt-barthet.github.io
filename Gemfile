@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.9.5"
 gem "bundler", "~> 1.17.2"
+gem "faraday-retry"
 gem "github-pages", group: :jekyll_plugins
 
 
