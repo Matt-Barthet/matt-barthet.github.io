@@ -42,9 +42,9 @@ Skills
 * Basic 3D Modelling (Autodesk Maya)
 * Basic Video Editing (Premiere Pro, After Effects)
 
-Publications
+Publications (in reverse Chronological Order)
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
