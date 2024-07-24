@@ -25,6 +25,12 @@ Work experience
   * University of Malta
   * Duties included: Research, EU project duties
 
+Teaching
+======
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Skills
 ======
 * Reincforcement Learning (RL)
@@ -53,10 +59,3 @@ Publications (in reverse Chronological Order)
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul> -->
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
