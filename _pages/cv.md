@@ -27,12 +27,20 @@ Work experience
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Reincforcement Learning (RL)
+* Player Modelling
+* Affective Computing
+* Machine Learning
+* Procedural Content Generation (PCG)
+  * Experience-Driven PCG (EDPCG)
+  * PCG-RL
+  * EDPCG-RL
+* Large Language Models (LLMs)
+* Game Development
+* Unity Game Engine
+* Godot Game Engine
+* Basic 3D Modelling (Autodesk Maya)
+* Basic Video Editing (Premiere Pro, After Effects)
 
 Publications
 ======
@@ -40,11 +48,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
