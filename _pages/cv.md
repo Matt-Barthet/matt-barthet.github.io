@@ -15,21 +15,24 @@ Education
 * M.Sc. in Digital Games, University of Malta, 2019-2021
 * PhD. in Games Research, University of Malta, 2022-Present
 
+
 Work experience
 ======
+* Research Support Officer II, 2022-Present
+  * University of Malta
+  * Duties included: Research, EU project duties
+
 * Research Support Officer I, 2020-2022
   * University of Malta
   * Duties included: Research, EU project duties
 
-* Research Support Officer II, 2022-Present
-  * University of Malta
-  * Duties included: Research, EU project duties
 
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
 
 Skills
 ======
