@@ -1,5 +1,5 @@
 ---
-title: "Play with Emotion: Affect-Driven Reinforcement Learning"
+title: " Affectively Framework: Towards Human-like Affect-Based Agents"
 collection: publications
 permalink: /publication/Affect-Driven-RL
 excerpt: ''
