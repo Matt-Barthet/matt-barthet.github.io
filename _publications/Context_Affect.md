@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/PCGRL-Affect
 excerpt: ''
 date: 2024-06-17
-venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction, 2024'
+venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction'
 paperurl: ''
 citation: 'Pinitas, K., Rasajski, N., Barthet, M., Kaselimi, M., Makantasis, K., Liapis, A., & Yannakakis, G. N. (2024). Varying the Context to Advance Affect Modelling: A Study on Game Engagement Prediction. In Proceedings of the 12th IEEE International Conference on Affective Computing and Intelligent Interaction.'
 ---

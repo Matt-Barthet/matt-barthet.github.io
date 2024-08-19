@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Affect-Driven-RL
 excerpt: ''
 date: 2024-08-01
-venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction Workshops (ACIIW), 2024'
+venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction Workshops (ACIIW)'
 paperurl: ''
 citation: 'Barthet, M., Khalifa, A., Liapis, A., & Yannakakis, G. N. (2024). Affectively Framework: Towards Human-like Affect-Based Agents. In Proceedings of the 12th IEEE International Conference on Affective Computing and Intelligent Interaction Workshops (ACIIW).
 '
