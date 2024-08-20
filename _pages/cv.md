@@ -25,26 +25,40 @@ Work experience
   * University of Malta
   * Duties included: Research, EU project duties
 
+Teaching
+======
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Reincforcement Learning (RL)
+* Player Modelling
+* Affective Computing
+* Machine Learning
+* Procedural Content Generation (PCG)
+  * Experience-Driven PCG (EDPCG)
+  * PCG-RL
+  * EDPCG-RL
+* Large Language Models (LLMs)
+* Game Development
+* Unity Game Engine
+* Godot Game Engine
+* Basic 3D Modelling (Autodesk Maya)
+* Basic Video Editing (Premiere Pro, After Effects)
 
-Publications
+Publications (in reverse Chronological Order)
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -52,3 +66,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+  {% endfor %}</ul> -->
