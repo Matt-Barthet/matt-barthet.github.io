@@ -1,7 +1,7 @@
 ---
 title: "Varying the Context to Advance Affect Modelling: A Study on Game Engagement Prediction"
 collection: publications
-permalink: /publication/PCGRL-Affect
+permalink: /publication/Context-Affect
 excerpt: ''
 date: 2024-06-17
 venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction'

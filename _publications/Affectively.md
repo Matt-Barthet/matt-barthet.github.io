@@ -1,7 +1,7 @@
 ---
 title: " Affectively Framework: Towards Human-like Affect-Based Agents"
 collection: publications
-permalink: /publication/Affect-Driven-RL
+permalink: /publication/Affectively
 excerpt: ''
 date: 2024-08-01
 venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction Workshops (ACIIW)'
