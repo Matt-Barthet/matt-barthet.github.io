@@ -10,29 +10,26 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+=======
 * B.Sc. in Computing Science, University of Malta, 2016-2019
 * M.Sc. in Digital Games, University of Malta, 2019-2021
 * PhD. in Games Research, University of Malta, 2022-Present
 
 Work experience
-======
+=======
+* Research Support Officer II, 2022-Present
+  * University of Malta
+  * Duties included: Research, EU project duties
+* Freelance Game Developer, 2022-2023
+  * MightyBox Malta
+  * Duties indluced: Creating a digital MVP of one of the companies' existing board game using Unity.
 * Research Support Officer I, 2020-2022
   * University of Malta
   * Duties included: Research, EU project duties
 
-* Research Support Officer II, 2022-Present
-  * University of Malta
-  * Duties included: Research, EU project duties
-
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
 Skills
-======
+=======
 * Reincforcement Learning (RL)
 * Player Modelling
 * Affective Computing
@@ -48,20 +45,28 @@ Skills
 * Basic 3D Modelling (Autodesk Maya)
 * Basic Video Editing (Premiere Pro, After Effects)
 
-Publications (in reverse Chronological Order)
-======
+Publications
+=======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
+
+Talks
+=======
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul> -->
-  
+  {% endfor %}</ul>
+
 Teaching
-======
-  <ul>{% for post in site.teaching %}
+=======
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Tutorials
+=======
+  <ul>{% for post in site.tutorial reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+

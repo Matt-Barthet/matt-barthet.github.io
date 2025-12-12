@@ -1,5 +1,5 @@
 ---
-title: "Game Artificial Intelligence Tutorial"
+title: "Game Artificial Intelligence: Ms Pacman Tutorial"
 collection: tutorial
 type: "Postgraduate course"
 permalink: /tutorial/Game-AI-Tutorial
@@ -8,13 +8,4 @@ date: 2022-10-01
 location: "Msida, Malta"
 ---
 
-Ms. Pacman AI Competition
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+In 2022-2024 I was responsible for running a competition between students on Ms. Pacman, where they had to implement an MCTS agent from scratch and which were pitted against multiple ghost teams to assess which one was best. 
