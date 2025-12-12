@@ -14,7 +14,7 @@ In addition to my academic pursuits, I have also started working part-time as a 
 
 Research Highlight #1: Affectively Framework
 =====
-<video src="images/stitched.mov" width="750" height="550" controls></video>
+<video src="images/Stitched.mov" width="750" height="550" controls></video>
 
 
 Game environments offer a unique opportunity for training virtual agents due to their interactive nature, which provides diverse play traces and affect labels. Despite their potential, no reinforcement learning framework incorporates human affect models as part of their observation space or reward mechanism. To address this, we present the Affectively Framework, a set of Open-AI Gym environments that integrate affect as part of the observation space. Check out my [github repository](https://github.com/Matt-Barthet/Affectively-Framework) to access the source code and run the framework for yourself!
@@ -22,7 +22,7 @@ Game environments offer a unique opportunity for training virtual agents due to 
 Research Highlight #2: GameVibe Game Corpus
 =====
 
-<img src="images/gamevibe.gif" width="750" height="550" alt="Game Vibe animation">
+<img src="images/Gamevibe.gif" width="750" height="550" alt="Game Vibe animation">
 
 What makes people interested in games? What if we could capture aspects of experience just by looking at the gameplay screen, as a mirror of a viewer's experience? We could then learn to design better games and speed up research towards general AI models of player experience. Check out my [blog post](https://communities.springernature.com/posts/gamevibe-a-multimodal-affective-game-corpus) on nature communities where I describe GameVibe, our first-person shooter engagement dataset publish in the Nature Scientific Data journal.
 
