@@ -18,7 +18,7 @@ In addition to my academic pursuits, I have also started working part-time as a 
 
 Research Highlight #1: Affectively Framework
 =====
-<video src="images/Stitched.mov" width="750" height="550" controls></video>
+<video src="images/Stitched.mov" width="100%" controls></video>
 
 
 Game environments offer a unique opportunity for training virtual agents due to their interactive nature, which provides diverse play traces and affect labels. Despite their potential, no reinforcement learning framework incorporates human affect models as part of their observation space or reward mechanism. To address this, we present the Affectively Framework, a set of Open-AI Gym environments that integrate affect as part of the observation space. Check out my [github repository](https://github.com/Matt-Barthet/Affectively-Framework) to access the source code and run the framework for yourself!
@@ -26,9 +26,18 @@ Game environments offer a unique opportunity for training virtual agents due to 
 Research Highlight #2: GameVibe Game Corpus
 =====
 
-<img src="images/Gamevibe.gif" width="750" height="550" alt="Game Vibe animation">
+<img src="images/Gamevibe.gif" width="100%" height="550" alt="Game Vibe animation">
 
 What makes people interested in games? What if we could capture aspects of experience just by looking at the gameplay screen, as a mirror of a viewer's experience? We could then learn to design better games and speed up research towards general AI models of player experience. Check out my [blog post](https://communities.springernature.com/posts/gamevibe-a-multimodal-affective-game-corpus) on nature communities where I describe GameVibe, our first-person shooter engagement dataset which we published in the Nature Scientific Data journal.
+
+
+Research Highlight #3: Open-Ended Minecraft Buildings
+======
+
+<video src="images/Minecraft-Video.mp4" width="100%" controls></video>
+
+This research presents an AI system that generates novel Minecraft buildings through evolutionary algorithms that continuously discover new feature possibilities. The system alternates between evolving building designs using novelty search and retraining its understanding of what constitutes "interesting" architecture, enabling open-ended creative exploration. By dynamically expanding its creative boundaries rather than working within fixed constraints, the system achieves greater diversity and complexity in generated structures. Checkout our [immersive article](https://minecraft.institutedigitalgames.com) published in IEEE Transactions on Games.
+
 
 
 PhD Proposal: Affect-Driven Reinforcement Learning
