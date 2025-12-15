@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 header:
   image: Banner.png
-footer:
-  image: Banner.png
+
 ---
 
 I am a full-time PhD student at the Institute of Digital Games, specializing in Games Research and AI. My research is at the cutting edge of the field, focusing on leveraging Artificial Intelligence to train gameplaying agents to behave and exhibit emotions in a human-like manner. I'm also interested in the use of AI to procedurally generate unique and captivating game content, which led me to work with Minecraft where I designed an innovative, creativity-centric building generator for my master's thesis.  
