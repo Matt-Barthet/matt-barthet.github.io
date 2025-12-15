@@ -6,9 +6,13 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+header:
+  image: Banner.png
+footer:
+  image: Banner.png
 ---
 
-I am a full-time PhD student at the Institute of Digital Games (University of Malta), specializing in Games Research and AI. My research is at the cutting edge of the field, focusing on leveraging Artificial Intelligence to train game-playing agents to behave and exhibit emotions in a human-like manner. I'm also interested in the use of AI to procedurally generate unique and captivating game content, which led me to work with Minecraft where I designed an innovative, creativity-centric building generator for my master's thesis.  
+I am a full-time PhD student at the Institute of Digital Games, specializing in Games Research and AI. My research is at the cutting edge of the field, focusing on leveraging Artificial Intelligence to train gameplaying agents to behave and exhibit emotions in a human-like manner. I'm also interested in the use of AI to procedurally generate unique and captivating game content, which led me to work with Minecraft where I designed an innovative, creativity-centric building generator for my master's thesis.  
 
 In addition to my academic pursuits, I have also started working part-time as a freelance/independent game developer using the Unity and Godot game engines. This experience has greatly benefited my research as it’s given me the skillset required to create specialized game environments for the testing and deployment of my work. I’m very passionate about combining my work in AI and academia with the practical side of my game development skills, and it’s something I intend to keep exploring in the future.
 
@@ -24,7 +28,7 @@ Research Highlight #2: GameVibe Game Corpus
 
 <img src="images/Gamevibe.gif" width="750" height="550" alt="Game Vibe animation">
 
-What makes people interested in games? What if we could capture aspects of experience just by looking at the gameplay screen, as a mirror of a viewer's experience? We could then learn to design better games and speed up research towards general AI models of player experience. Check out my [blog post](https://communities.springernature.com/posts/gamevibe-a-multimodal-affective-game-corpus) on nature communities where I describe GameVibe, our first-person shooter engagement dataset publish in the Nature Scientific Data journal.
+What makes people interested in games? What if we could capture aspects of experience just by looking at the gameplay screen, as a mirror of a viewer's experience? We could then learn to design better games and speed up research towards general AI models of player experience. Check out my [blog post](https://communities.springernature.com/posts/gamevibe-a-multimodal-affective-game-corpus) on nature communities where I describe GameVibe, our first-person shooter engagement dataset which we published in the Nature Scientific Data journal.
 
 
 PhD Proposal: Affect-Driven Reinforcement Learning
