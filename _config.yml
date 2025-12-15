@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &mbarthet3
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -80,12 +80,12 @@ analytics:
 author:
   name             : "Matthew Barthet"
   avatar           : "profile.png"
-  bio              : "PhD student in AI and games research, aspiring indie game developer."
+  bio              : "PhD student in AI and games research, part time freelance game developer."
   location         : "Malta"
   employer         : "University of Malta"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=QrXVsvUAAAAJ&hl=en&oi=ao"
-  email            :
+  email            : "contact@matthewbarthet.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -97,7 +97,7 @@ author:
   github           : "matt-barthet"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "mbarthet3"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "matthewbarthet"
@@ -107,11 +107,11 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "mbarthet3"
+  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : "MBarthet3"
+  youtube          : "mbarthet3"
   wikipedia        :
 
 
