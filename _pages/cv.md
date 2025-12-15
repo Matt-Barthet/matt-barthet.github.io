@@ -22,7 +22,7 @@ Work experience
   * Duties included: Research, EU project duties
 * Freelance Game Developer, 2022-2023
   * MightyBox Malta
-  * Duties indluced: Creating a digital MVP of one of the companies' existing board game using Unity.
+  * Duties included: Creating a digital MVP of one of the companies' existing board game using Unity.
 * Research Support Officer I, 2020-2022
   * University of Malta
   * Duties included: Research, EU project duties
