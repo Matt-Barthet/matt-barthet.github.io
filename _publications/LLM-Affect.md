@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/LLM-Affect
 excerpt: ''
 date: 2025-02-05
-venue: 'Arxiv'
+venue: 'Arxiv (Preprint). Submitted to IEEE Transactions on Affective Computing'
 paperurl: ''
 citation: 'Melhart, D., Barthet, M., & Yannakakis, G. N. (2025). Can Large Language Models Capture Video Game Engagement?. arXiv preprint arXiv:2502.04379.'
 ---
