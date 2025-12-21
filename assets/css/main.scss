@@ -102,6 +102,11 @@
   .swiper-pagination-bullet-active {
     opacity: 1;
   }
+  
+  .research-swiper .swiper-slide {
+  height: auto;
+}
+
 }
 
 /* Nav buttons */
@@ -135,8 +140,6 @@
 /* ============================================================
    Media Queries
    ============================================================ */
-
-/* Tablet ≥ 768px */
 @media (min-width: 768px) {
   .about-grid,
   .experience-grid {
