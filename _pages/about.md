@@ -18,7 +18,7 @@ In addition to my academic pursuits, I have also started working part-time as a 
 {% capture research-1 %}
 ## <a href="/publication/affectively"> The Affectively Framework
 
-<video src="images/Stitched.mov" width="100%" controls></video>
+<video src="images/Stitched.mp4" width="100%" controls></video>
 
 
 Game environments offer a unique opportunity for training virtual agents due to their interactive nature, which provides diverse play traces and affect labels. Despite their potential, no reinforcement learning framework incorporates human affect models as part of their observation space or reward mechanism. To address this, we present the Affectively Framework, a set of Open-AI Gym environments that integrate affect as part of the observation space. Check out my [github repository](https://github.com/Matt-Barthet/Affectively-Framework) to access the source code and run the framework for yourself!
