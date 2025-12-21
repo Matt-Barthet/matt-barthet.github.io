@@ -1,16 +1,13 @@
 ---
 ---
-
 /*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ * Minimal Mistakes Jekyll Theme
+ * - Michael Rose
+ * - mademistakes.com
+ * - https://twitter.com/mmistakes
+ */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -27,7 +24,6 @@
 @import "navigation";
 @import "footer";
 @import "syntax";
-
 @import "forms";
 
 @import "page";
@@ -38,17 +34,14 @@
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
+
 @import "print";
 
-.notice--about {
-  border: 2px solid #dedede;
-  border-radius: 6px;
-  padding: 1.25rem;
-  margin-bottom: 2rem;
-background-color: #ffffff; /* default */
-}
+/* ============================================================
+   Notices
+   ============================================================ */
 
-
+.notice--about,
 .notice--cv {
   border: 2px solid #dedede;
   border-radius: 6px;
@@ -56,9 +49,19 @@ background-color: #ffffff; /* default */
   margin-bottom: 2rem;
 }
 
+.notice--about {
+  background-color: #fff;
+}
 
+.notice--cv {
+  h1,
+  h2 {
+    margin-top: 0;
+  }
+}
+
+/* CV coloring inside swiper */
 .research-swiper {
-
   .swiper-slide:nth-child(odd) .notice--cv {
     background-color: #f4f7d4;
   }
@@ -66,91 +69,29 @@ background-color: #ffffff; /* default */
   .swiper-slide:nth-child(even) .notice--cv {
     background-color: #f7e8d4;
   }
-
 }
 
+/* ============================================================
+   Grids
+   ============================================================ */
 
-.notice--cv h1,
-.notice--cv h2 {
-  margin-top: 0;
-}
-
-@media print {
-  .notice--cv {
-    page-break-inside: avoid;
-    border: 1px solid #000;
-  }
-}
-
-@media (min-width: 768px) {
-  .notice--about.two-column > ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    // row-gap: 0.75rem;
-  }
-
-  .notice--about.two-column li {
-    break-inside: avoid;
-  }
-}
-
-/* Two columns on desktop */
-@media (min-width: 1024px) {
-  .about-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-
-@media (min-width: 1024px) {
-  .notice--about.publications .pub-columns {
-    column-count: 2;
-    column-gap: 3rem;
-  }
-
-  /* Keep each publication together as much as possible */
-  .notice--about.publications .pub-list > li {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-}
-
-
-@media print {   
-  .notice--about.publications .pub-list {
-    display: block;
-  }
-}
-
-.about-grid {
+.about-grid,
+.experience-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
 }
 
-/* Nav buttons */
-.carousel-nav {
-  display: flex;
-  justify-content: center;
-  gap: 0.75rem;
-  margin-top: 1rem;
-}
-
-.carousel-nav button {
-  border: 1px solid #333;
-  background: #fff;
-  padding: 0.4rem 0.75rem;
-  cursor: pointer;
-}
+/* ============================================================
+   Research Swiper
+   ============================================================ */
 
 .research-swiper {
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin: 2rem 0 3rem;
 
   .swiper-button-next,
   .swiper-button-prev {
-    color: #555;
+    color: rgb(174, 174, 174);
   }
 
   .swiper-pagination-bullet {
@@ -163,44 +104,25 @@ background-color: #ffffff; /* default */
   }
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-}
+/* Nav buttons */
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
 
-/* Tablet */
-@media (min-width: 768px) {
-  .about-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-.experience-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-}
-
-/* Tablet */
-@media (min-width: 768px) {
-  .experience-grid {
-    grid-template-columns: repeat(2, 1fr);
+  button {
+    border: 1px solid #333;
+    background: #fff;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
   }
 }
 
-/* Desktop */
-@media (min-width: 1200px) {
-  .experience-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* ============================================================
+   Peer Review
+   ============================================================ */
 
-  /* Let Peer Review breathe */
-  .experience-grid .peer-review {
-    grid-column: span 2;
-  }
-}
-
-/* Peer review list polish */
 .peer-review-list {
   margin-left: 1.2rem;
 }
@@ -210,27 +132,79 @@ background-color: #ffffff; /* default */
   font-style: italic;
 }
 
-/* Mobile: stack research highlights */
-@media (max-width: 767px) {
-  .research-swiper {
-    overflow: visible;
+/* ============================================================
+   Media Queries
+   ============================================================ */
+
+/* Tablet ≥ 768px */
+@media (min-width: 768px) {
+  .about-grid,
+  .experience-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .research-swiper .swiper-wrapper {
-    display: block;
+  .notice--about.two-column > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
   }
 
-  .research-swiper .swiper-slide {
-    width: 100% !important;
-    margin-bottom: 2rem;
-  }
-
-  /* Hide slider UI */
-  .research-swiper .swiper-button-next,
-  .research-swiper .swiper-button-prev,
-  .research-swiper .swiper-pagination {
-    display: none !important;
+  .notice--about.two-column li {
+    break-inside: avoid;
   }
 }
 
+/* Desktop ≥ 1024px */
+@media (min-width: 1024px) {
+  .notice--about.publications .pub-columns {
+    column-count: 2;
+    column-gap: 3rem;
+  }
 
+  .notice--about.publications .pub-list > li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+/* Large desktop ≥ 1200px */
+@media (min-width: 1200px) {
+  .experience-grid .peer-review {
+    grid-column: span 2;
+  }
+}
+
+/* Mobile ≤ 767px */
+@media (max-width: 767px) {
+  .research-swiper {
+    overflow: visible;
+
+    .swiper-wrapper {
+      display: block;
+    }
+
+    .swiper-slide {
+      width: 100% !important;
+      margin-bottom: 2rem;
+    }
+
+    /* Hide slider UI */
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-pagination {
+      display: none !important;
+    }
+  }
+}
+
+/* Print */
+@media print {
+  .notice--cv {
+    page-break-inside: avoid;
+    border: 1px solid #000;
+  }
+
+  .notice--about.publications .pub-list {
+    display: block;
+  }
+}

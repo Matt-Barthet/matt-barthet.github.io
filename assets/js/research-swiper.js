@@ -1,6 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script>
 document.addEventListener('DOMContentLoaded', function () {
   const breakpoint = window.matchMedia('(min-width: 768px)');
   let swiper = null;
@@ -42,17 +39,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  // Initial run
   breakpointChecker();
 
-  // Resize handling (Safari-safe)
   if (breakpoint.addEventListener) {
     breakpoint.addEventListener('change', breakpointChecker);
   } else {
     breakpoint.addListener(breakpointChecker);
   }
 
-  // Final safety net
   window.addEventListener('load', function () {
     if (swiper) {
       swiper.update();
@@ -60,4 +54,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
-</script>
