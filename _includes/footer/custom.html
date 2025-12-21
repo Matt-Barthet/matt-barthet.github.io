@@ -1,3 +1,31 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
 <!-- end custom footer snippets -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.research-swiper', {
+      loop: false,
+      spaceBetween: 30,
+      autoHeight: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      keyboard: {
+        enabled: true,
+      },
+    });
+
+    // 🔧 Fix cropped first slide
+    window.addEventListener('load', () => {
+      swiper.update();
+      swiper.updateAutoHeight(0);
+    });
+  });
+</script>

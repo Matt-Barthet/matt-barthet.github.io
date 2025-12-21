@@ -15,29 +15,34 @@ I am a full-time PhD student at the Institute of Digital Games, specializing in 
 
 In addition to my academic pursuits, I have also started working part-time as a freelance/independent game developer using the Unity and Godot game engines. This experience has greatly benefited my research as it’s given me the skillset required to create specialized game environments for the testing and deployment of my work. I’m very passionate about combining my work in AI and academia with the practical side of my game development skills, and it’s something I intend to keep exploring in the future.
 
-Research Highlight #1: Affectively Framework
-=====
+{% capture research-1 %}
+## <a href="/publication/affectively"> The Affectively Framework
+
 <video src="images/Stitched.mov" width="100%" controls></video>
 
 
 Game environments offer a unique opportunity for training virtual agents due to their interactive nature, which provides diverse play traces and affect labels. Despite their potential, no reinforcement learning framework incorporates human affect models as part of their observation space or reward mechanism. To address this, we present the Affectively Framework, a set of Open-AI Gym environments that integrate affect as part of the observation space. Check out my [github repository](https://github.com/Matt-Barthet/Affectively-Framework) to access the source code and run the framework for yourself!
+{% endcapture %}
 
-Research Highlight #2: GameVibe Game Corpus
-=====
+
+{% capture research-2 %}
+## <a href="/publication/gamevibe"> GameVibe: An Affective Game Corpus
 
 <img src="images/Gamevibe.gif" width="100%" height="550" alt="Game Vibe animation">
 
 What makes people interested in games? What if we could capture aspects of experience just by looking at the gameplay screen, as a mirror of a viewer's experience? We could then learn to design better games and speed up research towards general AI models of player experience. Check out my [blog post](https://communities.springernature.com/posts/gamevibe-a-multimodal-affective-game-corpus) on nature communities where I describe GameVibe, our first-person shooter engagement dataset which we published in the Nature Scientific Data journal.
+{% endcapture %}
 
+{% capture research-3 %}
 
-Research Highlight #3: Open-Ended Minecraft Buildings
-======
+## <a href="/publication/open-ended-minecraft-buildings"> Open-Ended Minecraft Buildings
 
 <video src="images/Minecraft-Video.mp4" width="100%" controls></video>
 
 This research presents an AI system that generates novel Minecraft buildings through evolutionary algorithms that continuously discover new feature possibilities. The system alternates between evolving building designs using novelty search and retraining its understanding of what constitutes "interesting" architecture, enabling open-ended creative exploration. By dynamically expanding its creative boundaries rather than working within fixed constraints, the system achieves greater diversity and complexity in generated structures. Checkout our [immersive article](https://minecraft.institutedigitalgames.com) published in IEEE Transactions on Games.
+{% endcapture %}
 
-
+{% capture proposal %}
 
 PhD Proposal: Affect-Driven Reinforcement Learning
 ======
@@ -56,3 +61,38 @@ To accomplish this task, we propose using the Go-Explore (Ecoffet et. al., 2019)
 ![EDRL](images/Examples.png)
 
 Another novel application of RL is for procedural content generation (PCG), such as the EDRL framework (Shu, Liu, Yannakakis, 2021). Frameworks such as EDRL focus on the use of RL for procedural content generation using a model for experience/affect in players to evaluate its output. This allows for content to be generated which satisfies playability requirements whilst also promoting the desired experience and emotional responses through its gameplay. Using our Go-Explore RL framework as the foundation, this project proposes altering the go-explore algorithm to generate content using a quality-diversity (QD) approach (through the archive of cells) for an experience-driven content generator. The content generated will then be evaluated using one or more RL agents trained to imitate behavior and affect. This allows us to generate content which elicits a desired behavioural and affective response in the agents. We will the evaluate our generator both quantitatively (e.g., expressive range, successful emotion elicitation) and qualitatively (comparison with content generated through other methods).
+
+{% endcapture %}
+
+# Research Highlights
+
+<div class="swiper research-swiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <div class="notice--cv">
+        {{ research-1 | markdownify }}
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="notice--cv">
+        {{ research-2 | markdownify }}
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="notice--cv">
+        {{ research-3 | markdownify }}
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Navigation -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+
+  <!-- Pagination dots -->
+  <div class="swiper-pagination"></div>
+</div>
