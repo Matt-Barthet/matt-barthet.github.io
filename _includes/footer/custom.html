@@ -1,31 +1,60 @@
-<!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
-<!-- end custom footer snippets -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper('.research-swiper', {
-      loop: false,
-      spaceBetween: 30,
-      autoHeight: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      keyboard: {
-        enabled: true,
-      },
-    });
+    const breakpoint = window.matchMedia('(min-width: 768px)');
+    let swiper = null;
 
-    // 🔧 Fix cropped first slide
-    window.addEventListener('load', () => {
+    function enableSwiper() {
+      swiper = new Swiper('.research-swiper', {
+        loop: false,
+        spaceBetween: 30,
+        autoHeight: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        keyboard: {
+          enabled: true,
+        },
+      });
+
+      // 🔧 FIX initial cropping (images/videos)
       swiper.update();
       swiper.updateAutoHeight(0);
+    }
+
+    function disableSwiper() {
+      if (swiper) {
+        swiper.destroy(true, true);
+        swiper = null;
+      }
+    }
+
+    function breakpointChecker() {
+      if (breakpoint.matches) {
+        if (!swiper) enableSwiper();
+      } else {
+        disableSwiper();
+      }
+    }
+
+    // Run on load
+    breakpointChecker();
+
+    // Run on resize
+    breakpoint.addEventListener('change', breakpointChecker);
+
+    // 🔧 FINAL safety net: recalc after all media loads
+    window.addEventListener('load', () => {
+      if (swiper) {
+        swiper.update();
+        swiper.updateAutoHeight(0);
+      }
     });
   });
 </script>

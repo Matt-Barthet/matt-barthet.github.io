@@ -210,3 +210,27 @@ background-color: #ffffff; /* default */
   font-style: italic;
 }
 
+/* Mobile: stack research highlights */
+@media (max-width: 767px) {
+  .research-swiper {
+    overflow: visible;
+  }
+
+  .research-swiper .swiper-wrapper {
+    display: block;
+  }
+
+  .research-swiper .swiper-slide {
+    width: 100% !important;
+    margin-bottom: 2rem;
+  }
+
+  /* Hide slider UI */
+  .research-swiper .swiper-button-next,
+  .research-swiper .swiper-button-prev,
+  .research-swiper .swiper-pagination {
+    display: none !important;
+  }
+}
+
+
