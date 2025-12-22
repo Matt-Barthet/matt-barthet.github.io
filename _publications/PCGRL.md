@@ -7,6 +7,7 @@ date: 2024-06-17
 venue: 'IEEE International Conference on Affective Computing and Intelligent Interaction'
 paperurl: ''
 citation: 'Barthet, M., Branco, D., Gallotta, R., Khalifa, A., & Yannakakis, G. N. (2024). Closing the Affective Loop via Experience-Driven Reinforcement Learning Designers. In Proceedings of the 12th IEEE International Conference on Affective Computing and Intelligent Interaction.'
+type: 'conference'
 ---
 
 ![EDRL](https://matthewbarthet.com/images/Examples.png)
